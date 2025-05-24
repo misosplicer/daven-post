@@ -4,52 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Daven-Post, Inc.</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #000;
-      color: #fff;
-      padding: 2rem;
-      text-align: center;
-    }
-    main {
-      padding: 2rem;
-    }
-    footer {
-      background: #222;
-      color: #aaa;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 4rem;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Daven-Post, Inc.</h1>
-    <p>Post-Production Accounting, Streamlined.</p>
+    <div class="container">
+      <h1>Daven-Post, Inc.</h1>
+      <p>Post-Production Accounting, Simplified.</p>
+      <a href="#contact" class="button">Contact Us</a>
+    </div>
   </header>
-  <main>
-    <h2>Welcome!</h2>
-    <p>Daven-Post, Inc. provides expert post-production accounting services tailored for the film & television industry.</p>
-    <h3>Services include:</h3>
+
+  <section id="about" class="container">
+    <h2>About</h2>
+    <p>With years of experience, we understand the unique financial workflows of post-production. We ensure your budgets are managed accurately and efficiently.</p>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Services</h2>
     <ul>
       <li>Accounts Payable</li>
       <li>Payroll Processing</li>
       <li>Cost Reporting</li>
       <li>Bank Reconciliation</li>
-      <li>Studio & Network Compliance</li>
+      <li>Studio/Network Compliance</li>
     </ul>
-    <p>Reach out to discuss your project needs.</p>
-  </main>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project">Project 1</div>
+      <div class="project">Project 2</div>
+      <div class="project">Project 3</div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Get in touch to discuss your project needs.</p>
+    <a href="mailto:contact@daven-post.co" class="button">Email Us</a>
+  </section>
+
   <footer>
-    &copy; 2025 Daven-Post, Inc. | daven-post.co
+    <div class="container">
+      &copy; 2025 Daven-Post, Inc.
+    </div>
   </footer>
 </body>
 </html>
